@@ -9,5 +9,5 @@ const secondWord = prompt("Inserisci la seconda parola!");
 if(firstWord.length > secondWord.length){
     console.log(firstWord, secondWord);
 }else{
-    console.log(secondWord, firstWord)
+    console.log(secondWord, firstWord);
 }
