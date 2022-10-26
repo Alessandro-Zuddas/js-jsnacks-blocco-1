@@ -12,7 +12,7 @@ for (let i = 0; i < partyList.length; i++) {
         alert("Hai il permesso per entrare!");
 
         break;
-    }else{
+    }else if(userName != element && element === partyList.length){
         alert("Spiacente non puoi entrare!");
 
         break;
