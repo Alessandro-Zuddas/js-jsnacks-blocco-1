@@ -8,11 +8,6 @@ for(let i = 0; i < 10; i++){
     let userNumber = Number(prompt("inserisci il numero!"));
     userNumbers.push(userNumber);
 
-    console.log(userNumbers);
-}
-
-for(let i = 0; i < userNumbers.length; i++){
     sum += userNumbers[i];
+    console.log(sum);
 }
-
-console.log(sum);
